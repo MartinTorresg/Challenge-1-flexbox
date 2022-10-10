@@ -1,0 +1,214 @@
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    background: #f1faee;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*css header*/
+.menu-header {
+    display: flex;
+    height: 70px;
+    background: #264653;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-nombre {
+    display: flex;
+}
+
+.menu-nav .nav-link {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+@media (max-width:700px){
+    .menu-header {
+        flex-direction: column;
+    }
+
+    .menu-nav {
+        padding: 10px 0px;
+    }
+}
+
+/*css presentation*/
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70px;
+}
+
+.title-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.title-div .perfil {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    background-image: url(.img/perfil.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.presentation-network {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 5%;
+}
+
+/*css sobre mi*/
+.about {
+    background: #a8dadc;
+}
+.about-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 70px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/*css habilidades*/
+.skills-title{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-list {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-list li {
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+    margin: 0 1.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.skills-list li:hover {
+    border-color: #c78c19;
+}
+
+.skills-list p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.skills-list li:hover p {
+    font-size: 18px;
+}
+
+/*css hobbies*/
+.hobbies-title{
+    display: flex;
+    justify-content: center;
+}
+.hobbies-list {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies-list li {
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+    margin: 0 1.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.hobbies-list li:hover {
+    border-color: #c78c19;
+}
+
+.hobbies-list p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hobbies-list li:hover p {
+    font-size: 18px;
+}
+
+/*css formacion*/
+.formacion-title{
+    display: flex;
+    justify-content: center;
+}
+.formacion-list {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.formacion-list li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    flex-wrap: wrap;
+}
+
+.formacion-list li:hover {
+    border-color: #c78c19;
+}
+
+.formacion-list h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formacion-list li:hover h3 {
+    font-size: 23px;
+}
+
+.formacion-list p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.formacion-list li:hover p {
+    font-size: 18px;
+}
