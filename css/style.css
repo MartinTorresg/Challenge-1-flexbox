@@ -212,3 +212,51 @@ a{
 .formacion-list li:hover p {
     font-size: 18px;
 }
+
+/*css proyectos*/
+.proyecto-title{
+    display: flex;
+    justify-content: center;
+}
+
+.proyecto-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.proyecto-div .proyecto {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin: 0 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    flex-wrap: wrap;
+}
+
+.proyecto-boton-repo {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color:#2c7a7b;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+.proyecto-boton-demo {
+    border: 0;
+    color: #2c7a7b;
+    font-weight: bold;
+    background-color:white;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
