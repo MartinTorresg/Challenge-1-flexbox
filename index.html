@@ -126,18 +126,21 @@
             </div>  
         </section>
         <!--Seccion de contacto-->
-        <section class="section-register">
-            <div class="form-register">  
+        <form class="form">
+            <div class="form-register" id="form">  
                 <h4>Contacto</h4>
                 <p>¿Quieres contactarme?</p>
                 <p>Complete el siguiente formulario.</p>
-                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
                 <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
                 <input class="controls" type="asunto" name="asunto" id="asunto" placeholder="Ingrese su Asunto">
-                <input class="controls" type="mensaje" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje">
-                <input class="botons" type="submit" value="Enviar mensaje">
+                <textarea class="controls" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Ingrese su Mensaje"></textarea>
+                <button class="botons" type="submit">Enviar mensaje</button>
+                <p class="warnings" id="warnings"></p>
             </div>
-          </section>
+        </form>
     </div>
+    <!-- Script del documento JavaScript -->
+    <script src="main.js"></script>
 </body>
 </html>
